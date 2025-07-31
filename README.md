@@ -1,4 +1,4 @@
-# Fleek Media Service
+# Replicate Media Service
 
 An enterprise-grade asynchronous media generation microservice built with FastAPI, Celery, and PostgreSQL. This service provides RESTful APIs for generating high-quality images using AI models (Replicate API) with robust async processing, retry mechanisms, and persistent storage.
 
@@ -36,7 +36,7 @@ An enterprise-grade asynchronous media generation microservice built with FastAP
 
 ## 🚀 Features
 
-### Core Assignment Requirements ✅
+### Core Requirements ✅
 
 - ✅ **FastAPI API Layer**
   - `POST /api/v1/generate` - Create generation jobs
@@ -543,9 +543,7 @@ Visit `http://localhost:8000/docs` for the complete interactive API documentatio
 
 The OpenAPI 3.0 specification is available at `http://localhost:8000/openapi.json`
 
-## 🎖️ Assignment Compliance
-
-This implementation fully addresses all requirements from the Fleek assignment:
+## 🎖️ Compliance
 
 ### Core Requirements ✅
 
@@ -572,8 +570,6 @@ This implementation fully addresses all requirements from the Fleek assignment:
 - [x] **Enterprise Features**: Job management, metadata storage, error tracking
 
 ## 📄 License
-
-This project was created as part of the Fleek Senior Backend Engineer assignment evaluation.
 
 ---
 
